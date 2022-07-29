@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+
+
+.container{
+    position: absolute;
+    width: 1519px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.top-right-container{
+    position: absolute;
+    width: 545px;
+    height: 400px;
+    max-width: 548px;
+    min-height: 200px;
+    left: 983px;
+    top: -10px;
+
+
+}
+
+.content ul > li > a:hover{
+   background-color: #B6B6B6;
+    color: black;
+    z-index: 4;
+    font-weight: bold;
+
+}
+
+.picture{
+    width: 60px;
+    height: 60px;
+    z-index: 4;
+
+}
+
+.collapsible{
+    position: absolute;
+    left: 1370px;
+    top: 30px;
+    background: #000000;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height:50px;
+    border: none;
+    outline: none;
+    z-index: 3;
+}
+
+.active, .collapsible:hover {
+    background-color: #000000;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content ul>li>a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    background: white;
+    list-style: none;
+
+}
+
+.content {
+    position: absolute;
+    width: 100px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background: #ffffff;
+    font-size: 20px;
+    align-self: auto;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+    z-index: 4;
+    top: 90px;
+    left: 1335px;
+}
+
+.content li{
+    list-style: none;
+}
+
+.content ul{
+    padding-left: 0;
+}
+
+.account-text{
+    top: 20px;
+    left: 1260px;
+    color: white;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.header-yellow{
+    position: absolute;
+    width: 1300px;
+    height: 100px;
+    left: -10px;
+    top: -10px;
+}
+
+
+
+
+
+
+
+
+
+.header-name {
+    top: 0;
+    left: 660px;
+    color: #000000;
+    width: 272px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.greetings-client{
+
+    position: absolute;
+    width: 500px;
+    height: 169px;
+    left: 105px;
+    top: 178px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    align-self: auto;
+    text-align: left;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+
+.left-bottom-form{
+    position: absolute;
+    width: 411.35px;
+    height: 325.72px;
+    left: -10px;
+    top: 380px;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+

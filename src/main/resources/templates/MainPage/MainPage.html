@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IT Bank</title>
+
+    <script type="text/javascript" th:src="@{../../assets/AdditionWithJS/HoverMenuBuuton.js}"></script>
+
+    <link href="../../static/MainPageStyle/main-page-yellow111.css" rel="stylesheet" media="all" th:href="@{../../MainPageStyle/main-page-yellow111.css}" />
+    <link href="../../static/MainPageStyle/blueHover.css" media="all" rel="stylesheet" th:href="@{../../MainPageStyle/blueHover.css}" >
+    <link href="../../static/MainPageStyle/redHover.css" media="all" rel="stylesheet" th:href="@{../../MainPageStyle/redHover.css}" >
+    <link href="../../static/MainPageStyle/yellowHover.css" media="all" rel="stylesheet" th:href="@{../../MainPageStyle/yellowHover.css}">
+    <link href="../../static/MainPageStyle/MenuButton.css" media="all" rel="stylesheet" th:href="@{../../MainPageStyle/MenuButton.css}">
+    <link rel="preconnect" href="@{https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+
+
+<div class="container-mainPage">
+
+
+                        <div class="menu-wrap">
+                            <div class="header-name">
+                                IT BANK
+                            </div>
+
+                            <div>
+                                <a href="/login" class="link-style">
+                                    <img
+                                            src="../../playground_assets/SignIn.png"
+                                            th:src="@{../../playground_assets/SignIn.png}"
+                                            class="signIn-image"
+                                    >
+                                </a>
+                            </div>
+
+                            <input type="checkbox" class="toggler">
+                            <div class="hamburger"><div></div></div>
+                            <div class="menu">
+                                <div>
+                                    <div >
+                                        <ul class="overlay-link">
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="#">MyBank</a></li>
+                                            <li><a href="/services">Services</a></li>
+                                            <li><a href="/contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+            <div class="main-container">
+            <div class="container-hover-credit">
+                <div class="container-credit">
+                    <div class="overlay-credit">
+                        <div class="container-item-credit">
+
+                            <div class="button-hover-credit">
+                                <button>Подробнее</button>
+                            </div>
+
+                            <img
+                                    th:src="@{../../playground_assets/creditList.png}"
+                                    src="/static/playground_assets/creditList.png"
+                                    class="main-image5-credit"
+                            />
+
+
+                           <a class="block-link" href="../HoverPages/Credits/Credits.html">Credits</a>
+                            <span class="main-text2-credit">Credits</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-hover">
+                <div class="container">
+                    <div class="overlay">
+                        <div class="container-item">
+
+                            <div class="button-hover">
+                                <button>Подробнее</button>
+                            </div>
+
+                            <a class="block-link" href="../HoverPages/Depositions/Depositions.html">Deposition</a>
+                            <span class="main-text4-depositions">Deposition</span>
+
+                            <img
+                                    th:src="@{../../playground_assets/credit.png}"
+                                    src="/static/playground_assets/credit.png"
+                                    class="main-image6-depositions"
+                            />
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-hover-cards">
+                <div class="container-cards">
+                    <div class="overlay-cards">
+                        <div class="container-item-cards">
+
+                            <div class="button-hover-cards">
+                                <button>Подробнее</button>
+                            </div>
+
+                            <a class="block-link" href="../HoverPages/Cards/Cards.html">Cards</a>
+                            <span class="main-text5-cards">Cards</span>
+
+                            <img
+                                    th:src="@{../../playground_assets/Card.png}"
+                                    src="/static/playground_assets/Card.png"
+                                    class="main-image8-cards"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <div class="currencyChangeCalculator">
+                <h1 class="currencyChangeCalculator-text">Currency calculator</h1>
+                    <div class="currency">
+                        <select id="from_currency">
+                            <option value="AED">AED</option>
+                            <option value="ARS">ARS</option>
+                            <option value="AUD">AUD</option>
+                            <option value="BGN">BGN</option>
+                            <option value="BRL">BRL</option>
+                            <option value="BYN">BYN</option>
+                            <option value="BSD">BSD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CHF">CHF</option>
+                            <option value="CLP">CLP</option>
+                            <option value="CNY">CNY</option>
+                            <option value="COP">COP</option>
+                            <option value="CZK">CZK</option>
+                            <option value="DKK">DKK</option>
+                            <option value="DOP">DOP</option>
+                            <option value="EGP">EGP</option>
+                            <option value="EUR" selected>EUR</option>
+                            <option value="FJD">FJD</option>
+                            <option value="GBP">GBP</option>
+                            <option value="GTQ">GTQ</option>
+                            <option value="HKD">HKD</option>
+                            <option value="HRK">HRK</option>
+                            <option value="HUF">HUF</option>
+                            <option value="IDR">IDR</option>
+                            <option value="ILS">ILS</option>
+                            <option value="INR">INR</option>
+                            <option value="ISK">ISK</option>
+                            <option value="JPY">JPY</option>
+                            <option value="KRW">KRW</option>
+                            <option value="KZT">KZT</option>
+                            <option value="MXN">MXN</option>
+                            <option value="MYR">MYR</option>
+                            <option value="NOK">NOK</option>
+                            <option value="NZD">NZD</option>
+                            <option value="PAB">PAB</option>
+                            <option value="PEN">PEN</option>
+                            <option value="PHP">PHP</option>
+                            <option value="PKR">PKR</option>
+                            <option value="PLN">PLN</option>
+                            <option value="PYG">PYG</option>
+                            <option value="RON">RON</option>
+                            <option value="RUB">RUB</option>
+                            <option value="SAR">SAR</option>
+                            <option value="SEK">SEK</option>
+                            <option value="SGD">SGD</option>
+                            <option value="THB">THB</option>
+                            <option value="TRY">TRY</option>
+                            <option value="TWD">TWD</option>
+                            <option value="UAH">UAH</option>
+                            <option value="USD">USD</option>
+                            <option value="UYU">UYU</option>
+                            <option value="VND">VND</option>
+                            <option value="ZAR">ZAR</option>
+                        </select>
+                        <input type="number" id="from_ammount" placeholder="0" value=1 />
+                    </div>
+                    <div class="middle">
+                        <button id="exchange">
+                           <img
+                                   src="../../playground_assets/exchange.png"
+                                   th:src="@{../../playground_assets/exchange.png}"
+                                   class="exchange-img">
+                        </button>
+                        <div class="rate" id="rate"></div>
+                    </div>
+                    <div class="currency">
+                        <select id="to_currency">
+                            <option value="AED">AED</option>
+                            <option value="ARS">ARS</option>
+                            <option value="AUD">AUD</option>
+                            <option value="BGN">BGN</option>
+                            <option value="BRL">BRL</option>
+                            <option value="BYN">BYN</option>
+                            <option value="BSD">BSD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CHF">CHF</option>
+                            <option value="CLP">CLP</option>
+                            <option value="CNY">CNY</option>
+                            <option value="COP">COP</option>
+                            <option value="CZK">CZK</option>
+                            <option value="DKK">DKK</option>
+                            <option value="DOP">DOP</option>
+                            <option value="EGP">EGP</option>
+                            <option value="EUR">EUR</option>
+                            <option value="FJD">FJD</option>
+                            <option value="GBP">GBP</option>
+                            <option value="GTQ">GTQ</option>
+                            <option value="HKD">HKD</option>
+                            <option value="HRK">HRK</option>
+                            <option value="HUF">HUF</option>
+                            <option value="IDR">IDR</option>
+                            <option value="ILS">ILS</option>
+                            <option value="INR">INR</option>
+                            <option value="ISK">ISK</option>
+                            <option value="JPY">JPY</option>
+                            <option value="KRW">KRW</option>
+                            <option value="KZT">KZT</option>
+                            <option value="MXN">MXN</option>
+                            <option value="MYR">MYR</option>
+                            <option value="NOK">NOK</option>
+                            <option value="NZD">NZD</option>
+                            <option value="PAB">PAB</option>
+                            <option value="PEN">PEN</option>
+                            <option value="PHP">PHP</option>
+                            <option value="PKR">PKR</option>
+                            <option value="PLN">PLN</option>
+                            <option value="PYG">PYG</option>
+                            <option value="RON">RON</option>
+                            <option value="RUB">RUB</option>
+                            <option value="SAR">SAR</option>
+                            <option value="SEK">SEK</option>
+                            <option value="SGD">SGD</option>
+                            <option value="THB">THB</option>
+                            <option value="TRY">TRY</option>
+                            <option value="TWD">TWD</option>
+                            <option value="UAH">UAH</option>
+                            <option value="USD" selected>USD</option>
+                            <option value="UYU">UYU</option>
+                            <option value="VND">VND</option>
+                            <option value="ZAR">ZAR</option>
+                        </select>
+                        <input type="number" id="to_ammount" placeholder="0" />
+                    </div>
+            </div>
+
+
+
+    <div class="footer">
+            <div class="footer-text">
+                Developed by Ivan Makhavikou
+            </div>
+        </div>
+
+</div>
+
+<script type="text/javascript" th:src="@{../../assets/AdditionWithJS/Currency.js}"></script>
+</body>
+</html>
+
+

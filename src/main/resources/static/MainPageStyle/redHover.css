@@ -1,0 +1,146 @@
+
+.container-cards{
+
+
+
+    left: 0;
+    width: 506px;
+    height: 478px;
+    position: relative;
+    object-fit: cover;
+    border-color: transparent;
+    background-color: #EA6C7B;
+
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+    display: block;
+
+}
+
+
+.overlay-cards{
+    background-color: #EA6C7B;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+
+.main-image8-cards {
+    top: 200px;
+    left: 300px;
+    width: 270px;
+    height: 190px;
+    position: absolute;
+    object-fit: cover;
+    border-color: transparent;
+    display: block;
+    overflow: visible;
+
+    -webkit-transition: transform 1s ease;
+}
+
+.main-text5-cards {
+    top: 71px;
+    left: 45px;
+    color: rgba(0, 0, 0, 1);
+    width: 185px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 1s;
+
+
+}
+
+.container-item-cards {
+    /*overflow: hidden;*/
+    display: block;
+    /* transform: translateX(-50%);*/
+
+}
+
+.container-hover-cards :hover .overlay-cards {
+
+
+    transform: translateY(100px);
+
+}
+
+
+.container-hover-cards :hover .main-text5-cards{
+
+
+    transform:  translate(110px, -140px);
+
+
+}
+
+.container-hover-cards :hover .main-image8-cards{
+
+
+    transform: scale(1.1, 1.1) translate(-170px, -70px);
+
+
+}
+
+.button-cards {
+    top: 344.5px;
+    position: absolute;
+    left: 200px;
+    width: 205px;
+    padding: 10px;
+    border-radius: 30px ;
+    border-width: 5px ;
+    background-color: white;
+    border-color: #38B6FF;
+    color: #38B6FF;
+    border-style: solid;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 24px;
+    display: none;
+    -webkit-transition: transform 1s ease;
+}
+.button-hover-cards :hover  {
+    background-color: #38B6FF;
+    color: white;
+
+}
+
+.container-hover-cards :hover button {
+
+    transform: translateX(80px);
+    display: block;
+
+
+
+}
+
+@media (max-width: 510px){
+    .container-hover-cards :hover .overlay-cards {
+
+
+        transform: translate(30px);
+
+    }
+}

@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.container-mainPage{
+    width: 1519px;
+    height: auto;
+}
+
+
+.main-container {
+    width: 1519px;
+    height: 678px;
+    top: 127px;
+
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+    object-fit: cover;
+    left: 0;
+}
+
+.main-page-yellow111-navlink {
+    display: contents;
+}
+.main-page-yellow111-frame1114 {
+    top: 45px;
+    left: 1695px;
+    width: 163px;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: initial;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.main-page-yellow111-text {
+    color: rgba(38, 0, 146, 1);
+    width: 143px;
+    height: 26px;
+    font-size: 24px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+
+}
+.header-name {
+    top: 15px;
+    left: 660px;
+    color: rgba(255, 255, 255, 1);
+    width: 272px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.signIn-image{
+    width: 60px;
+    height: 60px;
+}
+
+.link-style{
+    color: white;
+    left: 1380px;
+    top: 30px;
+    position: absolute;
+}
+
+.main-page-yellow111-group12092 {
+    top: 14px;
+    left: 25px;
+    width: 99px;
+    height: 96px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+.main-page-yellow111-svg {
+    width: 99;
+    height: 96;
+    position: absolute;
+}
+.main-page-yellow111-image1 {
+    top: 26px;
+    left: 26px;
+    width: 46px;
+    height: 47px;
+    position: absolute;
+    object-fit: cover;
+    border-color: transparent;
+}
+
+
+.main-page-yellow111-image4 {
+    top: 127px;
+    left: 0px;
+    width: 850px;
+    height: 478px;
+    position: absolute;
+    object-fit: cover;
+    border-color: transparent;
+    background-color: rgba(255, 241, 122, 1);
+}
+
+
+.main-page-yellow111-frame232531 {
+    top: 484.5px;
+    left: 43px;
+    width: 205px;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.main-page-yellow111-text3 {
+    color: rgba(38, 0, 146, 1);
+    width: 185px;
+    height: auto;
+    flex-grow: 1;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.main-page-yellow111-iconoircoin32534 {
+    top: 212px;
+    left: 1210px;
+    width: 281px;
+    height: 262px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+
+
+.currencyChangeCalculator {
+    position: absolute;
+    width: 666px;
+    height: 388px;
+    left: 840px;
+    top: 964px;
+
+    background: #FFE58D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+
+.currencyChangeCalculator-text{
+    position: relative;
+    width: 400px;
+    height: 101px;
+    left: 175px;
+    font-weight: bold;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+
+.footer{
+    top: 2953px;
+    left: 0;
+    width: 1519px;
+    height: 127px;
+    position: absolute;
+    object-fit: cover;
+    border-color: transparent;
+    background-color: #000000;
+    align-items: flex-start;
+}
+
+.footer-text{
+    top: 15px;
+    left: 660px;
+    color: rgba(255, 255, 255, 1);
+    width: 272px;
+    height: auto;
+    position: absolute;
+    font-size: 27px;
+    align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.currency select {
+
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%20000002%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat, repeat;
+    background-position: right .2em top 50%, 0 0;
+    background-size: .50em auto, 100%;
+    border: 0;
+    border-radius: 80px;
+    background-color: white;
+    padding-right: 20px;
+    font-size: 22px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.currency input {
+    border: 0;
+    background: transparent;
+    font-size: 22px;
+    text-align: right;
+    left: -100px;
+    top: -10px;
+    position:relative;
+
+
+}
+
+.block-link{
+    top: 71px;
+    left: 45px;
+    color: rgba(0, 0, 0, 1);
+    width: 185px;
+    height: auto;
+    position: relative;
+    font-size: 64px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 1s;
+    display: none;
+}
+
+.middle {
+    color: rgb(0, 117, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.middle button {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #38B6FF;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(0, 117, 235);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    top: -35px;
+    left: 135px;
+    transform: rotate(90deg);
+
+}
+
+.exchange-img{
+    width: 30px;
+    height: 30px;
+}
+
+.middle button:active {
+    transform: rotate(90deg) scale(0.9);
+}
+
+.middle .rate {
+    background-color: #fff;
+    border: 2px solid #38B6FF;
+    border-radius: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 10px;
+    width: 150px;
+    margin: 30px 15px 30px 25px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+
+/* SOCIAL PANEL CSS */
+.social-panel-container {
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.social-panel-container.visible {
+    transform: translateX(-10px);
+}
+
+.social-panel {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+    border: 5px solid #001F61;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli';
+    height: 169px;
+    width: 370px;
+    max-width: calc(100% - 10px);
+}
+
+.social-panel button.close-btn {
+    border: 0;
+    color: #97A5CE;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.social-panel button.close-btn:focus {
+    outline: none;
+}
+
+.social-panel p {
+    background-color: #001F61;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 17px 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 235px;
+}
+
+.social-panel p i {
+    margin: 0 5px;
+}
+
+.social-panel p a {
+    color: #FF7500;
+    text-decoration: none;
+}
+
+.social-panel h4 {
+    margin: 20px 0;
+    color: #97A5CE;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.social-panel ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.social-panel ul li {
+    margin: 0 10px;
+}
+
+.social-panel ul li a {
+    border: 1px solid #DCE1F2;
+    border-radius: 50%;
+    color: #001F61;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.social-panel ul li a:hover {
+    border-color: #FF6A00;
+    box-shadow: 0 9px 12px -9px #FF6A00;
+
+}
+
+.floating-btn {
+    border-radius: 26.5px;
+    background-color: #001F61;
+    border: 1px solid #001F61;
+    box-shadow: 0 16px 22px -17px #03153B;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    position: absolute;
+}
+
+.floating-btn:hover {
+    background-color: #ffffff;
+    color: #001F61;
+    position: absolute;
+}
+
+.floating-btn:focus {
+    outline: none;
+}
+
+.floating-text {
+    background-color: #001F61;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-family: 'Muli';
+    padding: 7px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 998;
+}
+
+.floating-text a {
+    color: #FF7500;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .social-panel-container.visible {
+        transform: translateX(0px);
+    }
+
+    .floating-btn {
+        right: 10px;
+    }
+}
+
+
+
+@media (max-width: 510px){
+
+
+
+
+    .container-mainPage{
+        width: 500px;
+
+    }
+    .main-container{
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .footer{
+        left: 0;
+        width: 500px;
+        position: absolute;
+    }
+
+    .footer-text{
+        width: 130px;
+        left: 175px;
+        position: relative;
+        font-size: 20px;
+    }
+
+
+    .currencyChangeCalculator{
+        width: 400px;
+        left: 30px;
+    }
+
+    .currencyChangeCalculator-text{
+        left: 130px;
+        width: 180px;
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container-hover{
+        width: 500px;
+        height: 200px;
+    }
+
+
+
+
+    .container-hover-cards{
+        width: 500px;
+        height: 200px;
+    }
+
+    .container-hover-credit{
+        width: 500px;
+        height: 200px;
+    }
+
+
+    .overlay-credit .main-image5-credit{
+        display: none;
+    }
+
+
+    .overlay .main-image6-depositions{
+        display: none;
+    }
+
+    .overlay-cards .main-image8-cards{
+        display: none;
+    }
+
+
+    .main-text2-credit{
+        display: none;
+    }
+
+    .main-text4-depositions{
+        display: none;
+    }
+
+    .main-text5-cards{
+        display: none;
+    }
+
+
+    .block-link{
+        display: block;
+    }
+
+
+
+
+    .link-style{
+        left: 400px;
+    }
+
+    .header-name{
+        top: 40px;
+        left: 190px;
+        width: 160px;
+        font-size: 30px;
+    }
+
+}

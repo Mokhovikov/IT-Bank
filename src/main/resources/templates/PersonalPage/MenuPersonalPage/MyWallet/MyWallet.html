@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<link th:href="@{../../PersonalPage/MyWallet/Wallet.css}" rel="stylesheet">
+<link th:href="@{../../PersonalPage/MyWallet/VerticalSlider.css}" rel="stylesheet">
+
+<div class="container">
+            <div class="form-container left-part">
+            <h1 class="wallet">My Wallet</h1>
+                <line style="height: 3px; width: 150%; background: white; margin: 10px; position: relative; top: -240px" ></line>
+                <section aria-label="Newest Photos">
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button-1 prev" data-carousel-button="prev"><img src="../../../../playground_assets/arrow.png" alt="arrow-1" style="width: 80px; height: 80px; transform: rotate(-90deg)"></button>
+                        <button class="carousel-button-2 next" data-carousel-button="next"><img src="../../../../playground_assets/arrow.png" alt="arrow-2" style="width: 80px; height: 80px; transform: rotate(90deg)"></button>
+                        <ul  data-slides>
+                            <li class="slide" data-active>
+                                <img src="https://www.pngall.com/wp-content/uploads/2/Blue-Credit-Card-PNG.png" alt="Nature Image #1">
+                            </li>
+                            <li class="slide">
+                                <img src="https://pngimg.com/uploads/credit_card/credit_card_PNG204.png" alt="Nature Image #2">
+                            </li>
+                            <li class="slide">
+                                <img src="https://academyflorida.com/wp-content/uploads/2019/02/9705586573733009006-credit_card.png" alt="Nature Image #3">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="form-container right-part">
+                <h1 class="payments">Payments</h1>
+                    <div>
+                    <a href="/PersonalAccount" class="link-style">
+                        <img
+
+                                th:src="@{../../playground_assets/SignIn.png}"
+                                class="signIn-image"
+                        >
+                    </a>
+                    </div>
+                <line style="height: 3px; width: 115%; background: black; margin: 10px; position: relative; top: -383px" ></line>
+
+            </div>
+
+
+</div>
+
+
+
+
+<script th:src="@{../../PersonalPage/MyWallet/MyWallet.js}"></script>
+</body>
+</html>
