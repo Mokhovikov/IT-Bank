@@ -67,7 +67,8 @@
 }
 .card__logo {
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
+    font-size: 36px;
 }
 .card__chip {
     background-image: linear-gradient(hsl(0,0%,70%),hsl(0,0%,80%));
@@ -98,7 +99,7 @@
     filter: drop-shadow(0 0.05rem hsla(0,0%,0%,0.3));
 }
 .card__number {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -120,14 +121,19 @@
 .card__name {
     font-size: 1.2rem;
 }
+
+
 .card__exp-date {
-    padding-left: 0.5rem;
+    padding-left: 14.5rem;
+    padding-bottom: 1rem;
 }
 .card__name {
+
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 12.5rem;
+
 }
 .card__vendor,
 .card__vendor:before,

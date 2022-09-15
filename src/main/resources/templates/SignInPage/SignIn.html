@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Sign In</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
     <link th:href="@{../../SignInPage/SignInStyle.css}" rel="stylesheet">
+
+
 </head>
 <body>
 
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous">
 
 <div class="container" id="container">
     <div class="form-container sign-up-container">
@@ -31,8 +32,22 @@
             <button type="submit">Sign Up</button>
         </form>
     </div>
+    <div th:if="${param.error}" class="alert alert-error">
+        Неправильные имя и пароль.
+    </div>
+
+    <div class="icon">
+        <a th:href="@{/home}">
+    <i class="fa-solid fa-arrow-left"></i>
+        </a>
+    </div>
+
+
     <div class="form-container sign-in-container">
-        <form th:action="@{/login}" method="post">
+
+
+
+        <form th:action="@{/Personal}" method="post">
             <h1>Sign in</h1>
             <div class="social-container">
                 <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -40,8 +55,12 @@
                 <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" name="email"/>
-            <input type="password" placeholder="Password" name="password"/>
+            <label>
+                <input type="email" placeholder="Email" name="email"/>
+            </label>
+            <label>
+                <input type="password" placeholder="Password" name="password"/>
+            </label>
 
 
             <a href="#">Forgot your password?</a>

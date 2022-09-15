@@ -224,9 +224,30 @@ button.ghost {
     align-items: center;
 }
 
+.add_container{
+    z-index: 4;
+    position: fixed;
+    align-items: center;
+    top: 2rem;
+    left: 4rem;
+    transform: rotate(45deg);
+
+}
+
+.icon{
+
+    position: absolute;
+    color: black;
+    z-index: 6;
+    font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight: 900;
+    font-size: 40px;
+}
 
 
-
+i{
+    font-style: normal;
+}
 
 
 

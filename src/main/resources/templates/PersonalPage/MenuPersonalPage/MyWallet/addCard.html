@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add card</title>
+</head>
+<body>
+<link th:href="@{../../PersonalPage/MyWallet/AddCard.css}" rel="stylesheet">
+
+
+<div class="container">
+    <div class="container-form">
+
+            <form method="post" th:action="@{/add}" style="border-color: black">
+                <div class="container-front-side">
+                 <div class="bank-logo">IT BANK</div>
+                <input class="number" type="text" name="number" id="number"  placeholder="**** **** **** ****"
+                       minlength="16" maxlength="16" pattern=".{16,16}"   required title="Card number must consist of 12 numbers"
+                       oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+
+                <input class="cardHolder" type="text" name="card_holder" id="card_holder" />
+
+                <input class="expireDate" type="text" name="expire_data" id="expire_data" minlength="4" maxlength="4" pattern=".{4,4}"   required title="Expire date must consist of 4 numbers"
+                       oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                </div>
+
+                <div class="container-back-side">
+                    <div class="line"></div>
+                <input class="cvc" type="text" name="cvc" id="cvc" minlength="3" maxlength="3" pattern=".{3,3}"   required title="CVC must consist of 3 numbers"
+                       oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                </div>
+
+                <button class="button-accept" type="submit">Save</button>
+                <button class="button-back" onclick="history.back()">Back</button>
+            </form>
+    </div>
+</div>
+
+</body>
+</html>

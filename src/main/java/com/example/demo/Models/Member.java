@@ -1,7 +1,11 @@
 package com.example.demo.Models;
 
 import jdk.jfr.DataAmount;
+import lombok.Builder;
 import lombok.Data;
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
 
@@ -9,13 +13,14 @@ import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
+import java.util.Locale;
 
 @Entity
 @Table(name = "Member")
 @Data
 @SessionScope
 @Component
-
+@DynamicUpdate
 public class Member {
 
 
@@ -37,15 +42,29 @@ public class Member {
     @Column
     private String lastName;
 
+    @Column
+    private String balance;
+
+
+
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "MEMBER_ROLES", joinColumns = {
             @JoinColumn(name = "MEMBER_EMAIL", referencedColumnName = "email")}, inverseJoinColumns = {
             @JoinColumn(name = "ROLE_NAME", referencedColumnName = "name") })
     private List<Role> role;
 
+
     public Member(String email, String password) {
         this.email = email;
         this.password = password;
+    }
+
+    public String getBalance() {
+        return balance;
+    }
+
+    public void setBalance(String balance) {
+        this.balance = balance;
     }
 
     public String getEmail() {
@@ -95,6 +114,10 @@ public class Member {
         this.password = password;
     }
 
+
+
     public Member() {
     }
+
+
 }

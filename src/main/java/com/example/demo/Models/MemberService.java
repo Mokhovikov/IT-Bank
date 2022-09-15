@@ -1,26 +1,33 @@
 package com.example.demo.Models;
 
-import com.example.demo.Repository.MemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 
-import java.util.ArrayList;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
-@Service
-public class MemberService {
+public interface MemberService {
 
-    @Autowired
-    private MemberRepository memberRepository;
+    void createMember(Member member);
 
-    public void createMember(Member member){
-        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        member.setPassword(encoder.encode(member.getPassword()));
-        Role memberRole = new Role("MEMBER");
-        List<Role> roles = new ArrayList<>();
-        roles.add(memberRole);
-        member.setRole(roles);
-        memberRepository.save(member);
-    }
+ /*
+ List<Member> readAll();
+ */
+
+    void editMember(Member member);
+
+
+    void memberInSession(String email, HttpSession session);
+
+    void memberOutSession(String email, HttpSession session, Model model);
+
+    void showCards(String email, HttpSession session, Model model);
+
+    void addCard(Card card, String email, HttpSession session);
+
+    void logout(HttpSession session);
+
+
+
+
+
 }

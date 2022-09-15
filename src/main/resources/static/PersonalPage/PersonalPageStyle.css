@@ -80,7 +80,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background: #ffffff;
+    background: #332929;
     font-size: 20px;
     align-self: auto;
     text-align: left;
@@ -150,6 +150,8 @@
     font-stretch: normal;
     text-decoration: none;
 }
+
+
 
 .greetings-client{
 

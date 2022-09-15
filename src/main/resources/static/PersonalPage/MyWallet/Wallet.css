@@ -23,22 +23,14 @@ h1 {
 
 }
 
-.wallet{
-    position: relative;
-    top: 30px;
-    color: white;
-    padding-bottom: 10em;
-}
-
-
 
 .container {
-    background: white;
+    background: #EEEAEA;
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 100%;
-    min-height: 100%;
+    max-width: 90%;
+    min-height: 90%;
 }
 
 
@@ -55,7 +47,7 @@ h1 {
 
 .left-part {
 
-    background: #000;
+    background: #332929;
     padding:  0 50px;
     height: 100%;
     width: 50%;
@@ -63,7 +55,7 @@ h1 {
 }
 
 .right-part{
-    background: white;
+    background: #201616;
     padding:  0 50px;
     height: 100%;
     left: 50%;
@@ -73,20 +65,209 @@ h1 {
 }
 
 .payments{
-    position: relative;
-    top: -120px;
-    color: black;
+    position: absolute;
+    top: 30px;
+    color: white;
     padding-bottom: 10em;
 }
+
+.button-new{
+    position: relative;
+    border-radius:40px ;
+    background-color: white;
+    width: 100%;
+    max-width: 80%;
+    min-height: 80%;
+    text-align: center;
+   line-height: 35px;
+
+    margin-left: 12rem;
+    top: 15rem;
+}
+
+.wallet{
+    position: absolute;
+    top: 30px;
+    color: white;
+    padding-bottom: 10em;
+}
+
+
 
 .link-style{
     z-index: 4;
     left: 80%;
-    top: 30px;
+    top: 2rem;
     position: absolute;
+
 }
 
 .signIn-image{
     width: 60px;
     height: 60px;
 }
+
+
+.add_container{
+    z-index: 4;
+    position: absolute;
+    align-items: center;
+    top: 2rem;
+    left: 5rem;
+
+}
+
+.payments-container{
+    position:fixed;
+    width: 100%;
+    max-width: 90%;
+    min-height: 90%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    z-index: 5;
+
+}
+
+.payments-container-content{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1e212b;
+    box-shadow: 0px 0px 10px #fff;
+    z-index: 5;
+    color: white;
+}
+
+.payments-container-head-text{
+    position: relative;
+    left: 40%;
+    top: -12rem;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.container-bill{
+    position:fixed;
+    width: 30%;
+    max-width: 40%;
+    min-height: 40%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    z-index: 6;
+}
+
+.payments-container-bill-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px #fff;
+    z-index: 6;
+    color: white;
+}
+
+.account-payment-text{
+    position: relative;
+    top: 100px;
+    border-color: black;
+    width: 250px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.value-payment-text{
+    position: relative;
+    top: 100px;
+    border-color: black;
+    width: 80px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+
+ul,li, nav,a{margin:0;padding:0;}
+a{text-decoration:none; font-family:helvetica; }
+
+
+
+#vertical-menu{
+    position: relative;
+    display:inline-block;
+    box-sizing:border-box;
+    padding-left:10px;
+    background:#f62459;
+    left: -11.35rem;
+
+
+}
+.main-menu {
+    display:inline-block;
+    width:100%;
+    box-sizing:border-box;
+
+}
+.main-menu li{
+    position:relative;
+    height:50px;
+    box-shadow:0 -1px 0 0 #444, 0 -2px 0 0 #222;
+    list-style-type: none;
+}
+.main-menu>li>a>i{
+    color:#db0a5b;
+    width:2em;
+    height:100%;
+    line-height:50px;
+    text-align:left;
+}
+.main-menu>li:first-child, .submenu-1>li:first-child, .submenu-2>li:first-child, .submenu-3>li:first-child{
+    box-shadow:none;
+}
+
+
+.main-menu>li>a, .submenu-1>li>a, .submenu-2>li>a,.submenu-3>li>a{
+    color:#d2527f;
+    background:#2a2a2a;
+    line-height:50px;
+    display:block;
+    padding:0 1em;
+
+}
+
+.submenu-1,.submenu-2, .submenu-3{
+    position:absolute;
+    white-space:nowrap;
+    top:-9999px;
+}
+.contain-submenu>a:first-child::after{
+    content:" \f054";
+    padding-left:1em;
+    font-family:'FontAwesome';
+}
+/* revealing submenus */
+.main-menu>li:hover .submenu-1, .submenu-1>li:hover .submenu-2, .submenu-2>li:hover .submenu-3{
+    top:0;
+    left:100%;
+    transition: top .5s cubic-bezier(0.380,0.820,.790,.930);
+
+}
+
+.main-menu>li:hover>a{
+    color:#22af70;
+}
+.submenu-1 li:hover>a{
+    color:#22a7f0;
+}
+.submenu-2 li:hover>a{
+    color:#f6db7f;
+}
+.submenu-3 li:hover>a{
+    color:#f2784b;
+}
+
+
+
+

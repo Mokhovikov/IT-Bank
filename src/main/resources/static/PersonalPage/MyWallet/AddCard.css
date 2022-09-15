@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+    border-width: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+h1 {
+    font-weight: normal;
+    margin: 0;
+
+}
+
+
+.container {
+    background: #D9D9D9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 60%;
+    max-width: 80%;
+    min-height: 80%;
+
+}
+
+.container-front-side{
+    position: relative;
+    width: 40%;
+    max-width: 80%;
+    min-height: 80%;
+    left: 70px;
+    top: 90px;
+    background: #69ABE9;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 2rem;
+    margin-left: 7rem;
+    z-index: 4;
+}
+
+
+.bank-logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    max-width: 80%;
+    min-height: 80%;
+    margin: 0.2rem;
+    left: 50%;
+    top: 0;
+    color: #333333;
+    position: relative;
+
+}
+.number{
+    position: relative;
+    width: 86%;
+    height: 40px;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 1rem;
+    background: white;
+    color: #333333;
+    font-size: 35px;
+    align-items: center;
+}
+
+.cardHolder{
+    position: relative;
+    width: 60%;
+    height: 30px;
+    max-width: 100%;
+    min-height: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem ;
+    background: white;
+    color: #333333;
+    font-size: 25px;
+    align-items: center;
+}
+
+.expireDate{
+    position: relative;
+    width: 20%;
+    height: 30px;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 1rem;
+    background: white;
+    color: #333333;
+    font-size: 25px;
+    align-items: center;
+}
+
+.container-back-side{
+    background-color: #82c7f8;
+    position: relative;
+    width: 40%;
+    max-width: 80%;
+    min-height: 80%;
+    left: 370px;
+    top: -100px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 7rem;
+
+}
+
+.cvc{
+    position: relative;
+    width: 40%;
+    height: 30px;
+    max-width: 100%;
+    min-height: 100%;
+    background: white;
+    color: #333333;
+    left: 150px;
+    font-size: 25px;
+    z-index: 4;
+}
+
+.button-accept{
+    position: relative;
+    border-color: black;
+    border-width: 1px;
+    border-radius:40px ;
+    background-color: white;
+    width: 20%;
+    max-width: 80%;
+    min-height: 80%;
+    text-align: center;
+    line-height: 65px;
+    margin-left: 14rem;
+    top: -5rem;
+}
+
+.button-back{
+    position: relative;
+    border-color: black;
+    border-width: 1px;
+    border-radius:40px ;
+    background-color: white;
+    width: 20%;
+    max-width: 80%;
+    min-height: 80%;
+    text-align: center;
+    line-height: 65px;
+    margin-left: 4rem;
+    top: -5rem;
+}
+
+
+.line{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    min-height: 15%;
+    margin: -5rem;
+    z-index: 1;
+
+}
+input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: #AAA;
+    transform:translate3d(2px,6px,0)
+}
+
+input:invalid {
+    border: 3px solid red;
+}
